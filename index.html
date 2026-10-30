@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perfume — Duaa Perfumes</title>
+  <meta name="description" content="Duaa Perfumes — long-lasting Extraits de Parfum inspired by the world's most iconic fragrances, plus our own Signature Blends. Delivering all over India." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="icon" href="assets/logo-mark-dark.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="announce">Complimentary delivery across India · Order via WhatsApp or Instagram DM</div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__bar">
+      <button class="header__btn" id="menuOpen" aria-label="Open menu">
+        <svg viewBox="0 0 20 14" width="18" height="12" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 1h20M0 7h13M0 13h20"/></svg>
+        <span>Menu</span>
+      </button>
+      <a href="#top" class="header__logo" aria-label="Duaa Perfumes home"><img src="assets/logo-mark-dark.png" alt="DUA — Duaa Perfumes" /></a>
+      <div class="header__right">
+        <a href="https://www.instagram.com/duaa.perfumes/" target="_blank" rel="noopener" class="header__btn header__btn--hide-sm">Instagram</a>
+        <button class="header__btn" id="bagOpen">Bag (<span id="bagCount">0</span>)</button>
+      </div>
+    </div>
+    <nav class="subnav" aria-label="Categories">
+      <a href="#grid" data-jump="all">All Perfume</a>
+      <a href="#grid" data-jump="fresh">Fresh</a>
+      <a href="#grid" data-jump="sweet">Sweet &amp; Floral</a>
+      <a href="#grid" data-jump="woody">Woody &amp; Oud</a>
+      <a href="#about">About Duaa</a>
+    </nav>
+  </header>
+
+  <!-- Menu drawer -->
+  <aside class="drawer drawer--left" id="menu" aria-label="Menu">
+    <div class="drawer__head"><span>Menu</span><button class="drawer__close" data-close>Close</button></div>
+    <nav class="menu">
+      <a href="#grid" data-jump="all">Perfume</a>
+      <a href="#grid" data-jump="fresh">Fresh</a>
+      <a href="#grid" data-jump="sweet">Sweet &amp; Floral</a>
+      <a href="#grid" data-jump="woody">Woody &amp; Oud</a>
+      <a href="#discover">Discover</a>
+      <a href="#about">About Duaa</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="https://wa.me/message/HJKRWLGVJB6BG1" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.instagram.com/duaa.perfumes/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </aside>
+
+  <main id="top">
+
+    <!-- Category intro -->
+    <section class="intro">
+      <div class="intro__text">
+        <h1 class="intro__title">Perfume <sup id="totalCount">(4)</sup></h1>
+        <p>Long-lasting Extraits de Parfum for women and men.<br />
+        Duaa recreates the world's most coveted fragrances — the same signature you love, crafted with care and made to be worn every day. Alongside them sit our own Signature Blends: layered accords composed in-house, from warm spice and smoky leather to deep oud and crisp marine freshness.</p>
+      </div>
+      <figure class="intro__media">
+        <img src="assets/img/duo.jpg" alt="Duaa Purpose 50 and Kirke with ivory packaging on marble" />
+      </figure>
+    </section>
+
+    <!-- Toolbar -->
+    <div class="toolbar" id="toolbar">
+      <button class="toolbar__btn" id="filtersOpen">
+        <svg viewBox="0 0 18 12" width="16" height="11" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 2h18M0 10h18"/><circle cx="5" cy="2" r="1.8" fill="#fff"/><circle cx="12" cy="10" r="1.8" fill="#fff"/></svg>
+        Filters <span id="filterCount">(0)</span>
+      </button>
+      <div class="toolbar__right">
+        <span class="toolbar__count" id="shownCount">4 fragrances</span>
+        <div class="view-toggle" role="group" aria-label="Grid density">
+          <button class="is-active" data-cols="4" aria-label="Four columns"><i></i><i></i><i></i><i></i></button>
+          <button data-cols="2" aria-label="Two columns"><i></i><i></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product grid -->
+    <section class="grid" id="grid" data-cols="4" aria-label="Products"><!-- rendered by main.js --></section>
+
+    <!-- Discover more -->
+    <section class="discover" id="discover">
+      <h2 class="h-caps">Discover more</h2>
+      <div class="discover__row">
+        <a class="tease" href="https://www.instagram.com/duaa.perfumes/" target="_blank" rel="noopener">
+          <figure><img src="assets/img/limmensite-2.jpg" alt="Duaa L'Immensité by the Seine at sunset" loading="lazy" /></figure>
+          <p class="tease__tag">Journal</p>
+          <h3>L'Immensité in Paris</h3>
+        </a>
+        <a class="tease" href="https://www.instagram.com/duaa.perfumes/" target="_blank" rel="noopener">
+          <figure><img src="assets/img/aventus-tall.jpg" alt="Duaa Aventus Absolu Noir Edition" loading="lazy" /></figure>
+          <p class="tease__tag">Black glass, gold detail</p>
+          <h3>The Noir Edition</h3>
+        </a>
+        <a class="tease" href="https://www.instagram.com/duaa.perfumes/" target="_blank" rel="noopener">
+          <figure><img src="assets/img/purpose.jpg" alt="Duaa noir gift packaging" loading="lazy" /></figure>
+          <p class="tease__tag">Keepsake cylinder &amp; carry bag</p>
+          <h3>Gift Packaging</h3>
+        </a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <figure class="about__media">
+        <img src="assets/img/limmensite.jpg" alt="Duaa L'Immensité with ivory keepsake cylinder and carry bag" loading="lazy" />
+      </figure>
+      <div class="about__body">
+        <p class="about__kicker">About Duaa Perfumes</p>
+        <h2 class="about__title">Luxury,<br />worn every day.</h2>
+        <p>Duaa was founded on a simple belief: luxury should be worn, not saved for special occasions. Every fragrance is an Extrait de Parfum — the richest concentration — so it stays with you all day and leaves a presence long after you have left the room.</p>
+        <p>We capture the character of the world's most iconic scents, and every bottle arrives in a keepsake cylinder and signature carry bag, ready to give.</p>
+        <ul class="about__facts">
+          <li><span>01</span><b>Long lasting</b>Stays with you all day</li>
+          <li><span>02</span><b>Strong projection</b>Not just a scent, a presence</li>
+          <li><span>03</span><b>Premium quality</b>Authentic ingredients</li>
+          <li><span>04</span><b>Pan India</b>Delivered to every corner</li>
+        </ul>
+        <div class="about__cta">
+          <a class="cta" href="https://wa.me/message/HJKRWLGVJB6BG1" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1.1 2.7 11.5 11.5 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .2-1.2c-.1-.1-.3-.2-.6-.3z"/></svg>
+            Order on WhatsApp
+          </a>
+          <a class="cta cta--line" href="#grid" data-jump="all">Shop the collection</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__news">
+        <h3>Newsletter</h3>
+        <p>New launches and limited batches, first.</p>
+        <form class="news__form" id="newsForm">
+          <input type="email" placeholder="Email address" aria-label="Email address" required />
+          <button type="submit" class="cta">Subscribe</button>
+        </form>
+      </div>
+      <nav class="footer__cols" aria-label="Footer">
+        <div><h4>Shop</h4><a href="#grid" data-jump="all">All Perfume</a><a href="#grid" data-jump="fresh">Fresh</a><a href="#grid" data-jump="sweet">Sweet &amp; Floral</a><a href="#grid" data-jump="woody">Woody &amp; Oud</a></div>
+        <div><h4>Order</h4><a href="https://wa.me/message/HJKRWLGVJB6BG1" target="_blank" rel="noopener">WhatsApp</a><a href="https://www.instagram.com/duaa.perfumes/" target="_blank" rel="noopener">Instagram DM</a><span>Delivery across India</span></div>
+        <div><h4>Duaa</h4><a href="#about">About</a><a href="#discover">Discover</a><a href="https://www.instagram.com/duaa.perfumes/" target="_blank" rel="noopener">Journal</a></div>
+      </nav>
+    </div>
+    <div class="footer__brand">
+      <img src="assets/logo-dark.png" alt="Duaa Perfumes — Luxury In Every Drop" />
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Duaa Perfumes</p>
+      <p class="footer__legal">Duaa creates inspired versions; brand names mentioned are trademarks of their respective owners and are used for reference only.</p>
+      <p><a href="https://www.instagram.com/duaa.perfumes/" target="_blank" rel="noopener">Instagram</a> · <a href="https://wa.me/message/HJKRWLGVJB6BG1" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </footer>
+
+  <!-- Filters drawer -->
+  <aside class="drawer drawer--left" id="filters" aria-label="Filters">
+    <div class="drawer__head"><span>Filters</span><button class="drawer__close" data-close>Close</button></div>
+    <div class="filters">
+      <fieldset><legend>Scent family</legend>
+        <label><input type="checkbox" name="family" value="fresh" /> Fresh</label>
+        <label><input type="checkbox" name="family" value="sweet" /> Sweet &amp; Floral</label>
+        <label><input type="checkbox" name="family" value="woody" /> Woody &amp; Oud</label>
+      </fieldset>
+    </div>
+    <div class="drawer__foot">
+      <button class="btn btn--line" id="filtersClear">Clear all</button>
+      <button class="btn" data-close>Show results</button>
+    </div>
+  </aside>
+
+  <!-- Bag drawer -->
+  <aside class="drawer drawer--right" id="bag" aria-label="Shopping bag">
+    <div class="drawer__head"><span>Bag (<span id="bagCount2">0</span>)</span><button class="drawer__close" data-close>Close</button></div>
+    <div class="bag__items" id="bagItems"></div>
+    <div class="drawer__foot drawer__foot--col">
+      <p class="bag__note">Orders are confirmed over WhatsApp. We'll copy your bag so you can paste it in the chat.</p>
+      <button class="btn" id="checkout">Order via WhatsApp</button>
+    </div>
+  </aside>
+
+  <div class="scrim" id="scrim"></div>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
